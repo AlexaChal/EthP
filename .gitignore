@@ -1,0 +1,21 @@
+# Visual Studio & VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.opensdf
+*.sdf
+*.cache
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# Node.js / React
+node_modules/
+dist/
+build/
+.DS_Store
+```
