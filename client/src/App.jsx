@@ -191,7 +191,7 @@ export default function App() {
                 Точність (Test) 
                 <HelpCircle size={14} className="text-slate-500 cursor-help" />
                 <div className="absolute bottom-full left-0 mb-2 w-48 p-2 bg-slate-800 text-xs text-slate-300 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10 border border-slate-600">
-                  Відсоток правильних прогнозів напрямку ціни на історичних даних, які модель не бачила при навчанні.
+                  Відсоток правильних прогнозів напрямку ціни на історичних даних.
                 </div>
               </span>
               <div className={`text-2xl font-bold mt-1 ${result.accuracy > 0.6 ? 'text-green-400' : 'text-yellow-400'}`}>
